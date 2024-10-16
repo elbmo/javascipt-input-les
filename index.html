@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <p>teststttttttttttt</p>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Formulier</h1>
 
+    <h4>Wat voor formulier</h4>
+    <br />
 
-    <input type="date" name="" id="datum">
-</body>
-<script src="js/main.js"></script>
+    <block>
+      <label for="nickname">nickname: </label>
+      <input class="input-nickname" id="nickname" type="text" />
+      <button class="button-send">Send</button>
+    </block>
+    <br />
+    <br />
+    <block>
+      <label for="leeftijd">leeftijd: </label>
+      <input class="input-leeftijd" id="leeftijd" type="number" />
+
+      <button class="button-stuur">Send</button>
+    </block>
+
+    <p class="result-para"></p>
+  </body>
+  <script src="js/main.js"></script>
 </html>
