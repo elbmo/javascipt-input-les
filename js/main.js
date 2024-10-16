@@ -22,7 +22,7 @@ buttonStuur.addEventListener('click', function() {
     let leeftijd = Number(inputLeeftijd.value);
 
     if (leeftijd < 18) {
-        alert("Jij bent geen 18");
+        alert("Jij bent onder 18");
     } else if (leeftijd === 18) {
         alert("Jij bent 18");
     } else if (leeftijd > 18) {

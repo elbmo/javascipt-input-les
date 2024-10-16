@@ -7,23 +7,26 @@ html{
 
 block{
     border: solid 1px black;
-    margin: 0px;
+    margin: 1px;
     padding: 10px;
     background-color: rgb(206, 235, 235);
 }
 
+
+
+
 .button-send{
     background-color: rgb(170, 196, 201);
 }
-
 .button-send:hover{
     background-color: rgb(58, 154, 192);
 }
 
+
+
 .button-stuur{
     background-color: rgb(170, 196, 201);
 }
-
 .button-stuur:hover{
     background-color: rgb(58, 154, 192);
 }
